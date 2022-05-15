@@ -1,16 +1,87 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
-			"path": "pages/index/index",
+			"path": "pages/minAll/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "德育银行",
+                "navigationStyle":"custom"
 			}
-		}
-	],
+		},{
+            "path" : "pages/minAll/ccjf/ccjf",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分查询",
+                "navigationBarBackgroundColor": "#c52c20",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/minAll/integralReport/integralReport",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分提报",
+                "navigationBarBackgroundColor": "#c52c20",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/minAll/integralkmsg/integralkmsg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分核销记录",
+                "navigationBarBackgroundColor": "#c52c20",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/minAll/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "navigationBarBackgroundColor": "#c52c20",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "德育银行",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
-	}
+	},
+    "tabBar": {
+		"color": "#000",
+		"selectedColor": "#4CC98F",
+		"borderStyle": "black", 
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/minAll/index/index",
+			"iconPath": "static/icons/index-off.png",
+			"selectedIconPath": "static/icons/index-on.png",
+			"text": "首页"
+		},{
+            "pagePath": "pages/minAll/integralReport/integralReport",
+			"iconPath": "static/icons/classify-off.png",
+			"selectedIconPath": "static/icons/classify-on.png",
+			"text": "积分提报"
+        },{
+            "pagePath": "pages/minAll/ccjf/ccjf",
+			"iconPath": "static/icons/appointment-off.png",
+			"selectedIconPath": "static/icons/appointment-on.png",
+			"text": "积分查询"
+        },{
+            "pagePath": "pages/minAll/integralkmsg/integralkmsg",
+			"iconPath": "static/icons/unclassify-off.png",
+			"selectedIconPath": "static/icons/unclassify-on.png",
+			"text": "积分核销记录"
+        },{
+            "pagePath": "pages/minAll/my/my",
+			"iconPath": "static/icons/my-off.png",
+			"selectedIconPath": "static/icons/my-on.png",
+			"text": "我的"
+        }
+    ]
+    }
 }

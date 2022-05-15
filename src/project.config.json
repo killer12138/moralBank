@@ -1,0 +1,16 @@
+{
+	"miniprogramRoot": "./unpackage/dist/dev/mp-weixin/",
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": [
+			{
+				"type": "folder",
+				"value": "static/common"
+			},
+			{ 
+				"type": "folder",
+				"value": "static/test"
+			}
+		]
+	}
+}

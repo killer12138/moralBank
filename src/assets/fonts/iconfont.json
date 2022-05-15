@@ -1,0 +1,72 @@
+{
+  "id": "2499435",
+  "name": "兵棒商城",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1510321",
+      "name": "地址",
+      "font_class": "position",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "88780",
+      "name": "全部订单",
+      "font_class": "quanbudingdan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1379949",
+      "name": "待付款",
+      "font_class": "icon-test",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "10588410",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "14015783",
+      "name": "-_箭头",
+      "font_class": "-_jiantou",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "14748520",
+      "name": "已完成",
+      "font_class": "yiwancheng",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "16505902",
+      "name": "待收货",
+      "font_class": "daishouhuo",
+      "unicode": "e7f3",
+      "unicode_decimal": 59379
+    },
+    {
+      "icon_id": "19954256",
+      "name": "收 藏",
+      "font_class": "shoucang",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "19954259",
+      "name": "收 藏 (1)",
+      "font_class": "shoucang1",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    }
+  ]
+}
